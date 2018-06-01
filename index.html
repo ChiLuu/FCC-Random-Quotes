@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Random Quote Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css\bootstrap.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="custom.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js\bootstrap.js"></script>    
+    <script src="quote-script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row text-center main-content">
+                <div class="col-sm-1 open-quote">
+                    <img class="quote-img" src="https://telecomworld.itu.int/wp-content/uploads/2014/12/2015_quote_marks_open.png" alt="Open Quote">
+                </div>
+                <div class="col-sm-10">
+                    <blockquote>
+                    </blockquote> 
+                    <footer class="text-right">
+                    </footer>
+                </div>
+                <div class="col-sm-1 close-quote">
+                    <table style="height: 100px;">
+                        <tbody>
+                            <tr>
+                                <td class="align-bottom"><img class="quote-img" src="https://steemit-production-imageproxy-upload.s3.amazonaws.com/DQmP8whuV7uthhixKMkVL1JSGH7kha8tjJqfEBfifoe5fcv" alt="Close Quote"></td>
+                            </tr>
+                        </tbody> 
+                    </table>
+                </div>
+            
+                
+            </div>
+            <div class="row social-quote">
+                <div class="col-sm-4 social-media-links text-left">
+                    <ul>
+                        <li>
+                            <a id="tweet-quote" href="http://twitter.com/share?text=HeyHey Hey" target="_blank">
+                                <div class="fa fa-twitter"></div>
+                            </a>                    
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-7 text-right">
+                    <button id="get-quote-btn" class="btn">
+                            Get Quote
+                    </button>                                  
+                </div>
+                <div class="col-sm-1 get-quote">
+                </div>
+            </div>
+        </div>
+        <div class="created-by text-center">
+            by Chi luu
+        </div>
+    </div>
+</body>
+</html>
+

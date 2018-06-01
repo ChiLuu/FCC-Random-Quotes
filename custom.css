@@ -1,0 +1,59 @@
+body {
+    background-color: orange;
+}
+.container {
+    padding: 10%;    
+}
+.container-fluid {
+    background: white;
+    border-radius: 3px;
+    padding: 5%; 
+}
+.quote-img{
+    width: 30px;
+}
+.social-quote {
+    padding-top: 2em;
+}
+.social-media-links ul {
+    list-style: none;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 4px;
+}
+.fa:hover {
+    opacity: 0.5;
+}
+.fa-twitter {
+    background: #55ACEE;
+}
+.fa-twitter::before {
+    font-size: 20px;
+}
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    font-style: italic;
+    width: 100%;
+    margin: 0.25em 0;
+    padding: 0.25em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+footer {
+    font-size: 14px;
+    color: grey;
+}
+.created-by {
+    padding: 10px;
+    font-size: 13px;
+    color: rgba(110, 120, 204, 0.959);
+}
